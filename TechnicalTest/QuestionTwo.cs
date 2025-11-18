@@ -8,8 +8,9 @@ namespace TechnicalTest
 {
     public class QuestionTwo
     {
-        public static int GetPitDepth(int[] A)
-        {
-        }
+        //public static int GetPitDepth(int[] A)
+        //{
+        //    if (A == null || A.Length < 3) return -1;
+        //}
     }
 }
