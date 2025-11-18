@@ -10,6 +10,12 @@ namespace TechnicalTest
     {
         public static int GetLongestSentance(string s)
         {
+            if (string.IsNullOrWhiteSpace(s))
+            {
+                return 0;
+            }
+
+            var sentences = s.Split(new[] { '.', '?', '!' }, StringSplitOptions.None);
         }
     }
 }
